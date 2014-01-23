@@ -1,7 +1,12 @@
 <?php
 
-$connexion = mysql_connect('sqletud.univ-mlv.fr',mvast,Zaosaa5x) or die('erreur de connexion');
-	mysql_select_db('mvast_db',$connexion) or die('erreur de base de donnée');
+$connexion = mysql_connect('sqletud.univ-mlv.fr',pdahan,3Yyaquux) or die('erreur de connexion');
 
-echo("good");
+mysql_select_db('pdahan',$connexion) or die('erreur de base de donnée');
+
+
+
+$requete = "SELECT * FROM item";
+
+
 ?>
