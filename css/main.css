@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+	display:  inline-block;
+}
+
+#footer ul li{
+
+	display: inline-block;
+}
